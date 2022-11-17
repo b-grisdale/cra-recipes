@@ -25,7 +25,7 @@ function Popular() {
                 return(
                     <Link to={'/recipe/' + recipe.id} key={recipe.id}>
                         <p>{recipe.title}</p>
-                        <img src={recipe.image} />
+                        <img src={recipe.image} alt={recipe.title} />
                     </Link>
                 )
             })

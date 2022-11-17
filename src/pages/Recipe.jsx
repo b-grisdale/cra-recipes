@@ -21,7 +21,7 @@ function Recipe() {
   return (
     <div>
         <h2>{details.title}</h2>
-        <img src={details.image}/>
+        <img src={details.image} alt={recipe.title} />
     </div>
   )
 }
